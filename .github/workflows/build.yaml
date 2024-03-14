@@ -1,10 +1,13 @@
 name: "Build2"
 on:
     pull_request:
-        branches: [main]
+        branches: 
+            - main
+            - master        
     push:
         branches:
             - main
+            - master
 
 jobs:
     build:
