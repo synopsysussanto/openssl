@@ -1,10 +1,6 @@
-name: "Build"
+name: "Build2"
 on:
     pull_request:
-        paths-ignore:
-            - '.txt'
-            - 'LICENSE'
-            - 'docs/**'
         branches: [main]
     push:
         branches:
